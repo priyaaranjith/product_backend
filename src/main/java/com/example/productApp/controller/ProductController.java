@@ -24,4 +24,5 @@ public class ProductController {
     public String EditProduct(){
         return "Welcome to edit products";
     }
+
 }
