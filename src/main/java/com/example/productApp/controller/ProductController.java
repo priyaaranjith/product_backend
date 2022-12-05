@@ -16,8 +16,12 @@ public class ProductController {
         return "Welcome to add products page";
 
     }
-    @PostMapping("/")
+    @PostMapping("/search")
     public String SearchProduct(){
         return "Welcome to search products";
+    }
+    @PostMapping("/edit")
+    public String EditProduct(){
+        return "Welcome to edit products";
     }
 }
